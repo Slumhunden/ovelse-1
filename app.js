@@ -22,3 +22,4 @@ function sayEmail() {
     document.querySelector("h2").textContent = "Din mail er: " + document.querySelector("#mail").value;
 }
 document.querySelector("#meal").addEventListener("click", sayEmail);
+
